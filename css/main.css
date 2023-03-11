@@ -435,6 +435,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+ // height: 100%;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", "Arial", sans-serif;
@@ -448,6 +449,7 @@ button {
   background-size: 1600px;
   background-position: 0 0;
   height: 6800px;
+
 }
 
 /* STICKY-FOOTER */
