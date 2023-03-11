@@ -24,6 +24,15 @@ svg {
 button {
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 .site-body {
   display: flex;
@@ -31,16 +40,21 @@ button {
   // height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: "Proxima Nova", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   background-color: var(--main-dark-color);
+  color: var(--main-white-color);
 }
 .site-body__home {
   background-image: url("../images/main-bg.png");
   background-size: 1600px;
-  background-position: 0 0;
+  background-position: center 0;
   height: 6800px;
+  background-repeat: no-repeat;
+}
+.body--dark .site-body__home {
+  background-image: url("../images/main-bg.png");
 }
 /* STICKY-FOOTER */
 .site-main {
