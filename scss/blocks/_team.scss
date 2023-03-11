@@ -47,13 +47,14 @@
 
 .owl-nav {
   position: absolute;
-  right: -60px;
+  right: 0px;
   bottom: 50%;
-  text-align: left !important;
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .owl-prev {
-  margin-right: 1365px !important;
+  // margin-right: 1235px !important;
 }
 .body--dark {
   .owl-prev,
