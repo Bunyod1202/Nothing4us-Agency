@@ -352,7 +352,7 @@ template {
 @font-face {
   font-display: swap;
   font-family: "Proxima Nova";
-  font-style: normal;
+  font-style: italic;
   font-weight: 400;
   src: url("../fonts/proxima_nova_condensed_regular_italic.woff2") format("woff2"), url("../fonts/proxima_nova_condensed_regular_italic.woff") format("woff");
 }
@@ -368,7 +368,7 @@ template {
 @font-face {
   font-display: swap;
   font-family: "Proxima Nova";
-  font-style: normal;
+  font-style: italic;
   font-weight: 600;
   src: url("../fonts/proxima_nova_condensed_semibold_italic.woff2") format("woff2"), url("../fonts/proxima_nova_condensed_semibold_italic.woff") format("woff");
 }
@@ -437,17 +437,19 @@ button {
           flex-direction: column;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: "Proxima Nova", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   background-color: var(--main-dark-color);
+  color: var(--main-white-color);
 }
 
 .site-body__home {
   background-image: url("../images/main-bg.png");
   background-size: 1600px;
-  background-position: 0 0;
+  background-position: center 0;
   height: 6800px;
+  background-repeat: no-repeat;
 }
 
 /* STICKY-FOOTER */
