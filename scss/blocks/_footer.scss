@@ -1,7 +1,7 @@
 .site-footer {
     padding: 81px 0;
-    background: rgba(14, 16, 20, 0.9);
-border-top: 1px solid #4E4E4E;
+    background: var(--service-cards-color);
+border-top: 1px solid var(--card-dark-border);
 backdrop-filter: blur(1px);
 border-radius: 20px 20px 0px 0px;
 }
@@ -43,6 +43,8 @@ border-radius: 20px 20px 0px 0px;
     background-position: center;
 }
 
+
+
 .address-in {
     @include typography-styles(normal,16px,25px,600,left,);
     font-family: 'Proxima Nova';
@@ -83,6 +85,32 @@ border-radius: 20px 20px 0px 0px;
     background-size: cover;
     background-position: center;
     left: 0;
+}
+
+.body--dark {
+    .phone-tel::before{
+        background-image: url("../../images/phone-light.svg");
+    }
+
+    
+.address-wrapper::before{
+    background-image: url("../../images/location-light.svg");
+}
+
+.logo-white {
+    display: none;
+}
+
+.logo-black {
+    display: block;
+}
+
+    
+}
+
+
+.logo-black {
+    display: none;
 }
 
 .phone {
