@@ -1,0 +1,58 @@
+.new-blog__innner {
+  padding-bottom: 120px;
+}
+.our-team__title,
+.new-blog__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+.list-li {
+  width: 433px;
+  background-color: var(--main-teach-color);
+  border: 1px solid #4e4e4e;
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+}
+
+.href-item {
+  @include link-unstyle();
+}
+
+.list-image {
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
+.item-wrap-in {
+  padding: 24px 30px 25px 30px;
+}
+
+.item-in-text {
+  @include typography-styles(normal, 20px, 24px, 600, left);
+  font-family: "Proxima Nova";
+  color: var(--main-white-color);
+  margin: 0;
+}
+
+.item-of-text {
+  @include typography-styles(normal, 16px, 19px, 400, left);
+  font-family: "Gilroy";
+  color: var(--main-white-color);
+  margin: 0;
+  padding: 39px 0 22px 0;
+}
+
+.hi-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-link {
+  @include typography-styles(normal, 16px, 19px, 600, left);
+  @include link-unstyle();
+  color: var(--main-white-color);
+}

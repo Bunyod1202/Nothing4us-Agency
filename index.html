@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template</title>
+  <title>Main</title>
   <link rel="stylesheet"
     href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
   <link rel="stylesheet"
@@ -16,12 +16,212 @@
 <body class="site-body  site-body__home ">
 
   <header class="site-header header">
+    <div class="container">
+      <div class="header_inner">
+        <div class="header-left">
+          <button class="menu-btn">
+            <img class="menu-btn-dark" src="./images/menu-icon-dark.svg" alt="">
+            <img class="menu-btn-light" src="./images/menu-icon.svg" alt="">
+          </button>
+          <a href="#">
+            <img class="light-logo" src="./images/site-logo.svg" width="72" height="50" alt="site-logo">
+            <img class="dark-logo" src="./images/site-logo-black.svg" width="72" height="50" alt="site-logo">
+          </a>
+          <nav class="header-nav">
+            <ul class="list">
+              <li class="list-item">
+                <a class="list-link" href="#">О компании</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="#">Портфолио</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="#">Услуги</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-right">
+          <div class="header-theme">
+            <div class="switch">
+              <input type="checkbox" name="switch" class="switch-checkbox" id="demo-switch" checked="checked">
+              <label class="switch-label" for="demo-switch">
+                <span class="switch-inner"></span>
+                <span class="switch-click"></span>
+              </label>
+            </div>
+          </div>
+          <div class="contact">
+            <a class="phone-number" href="tel:+998907777777">+998 90 777-77-77</a>
+            <a class="emil-adress" href="mailto:chotatam@gmail.com">chotatam@gmail.com</a>
+          </div>
+          <a href="#" class="order-btn">Заказать звонок</a>
+        </div>
+      </div>
+    </div>
   </header>
   <main class="site-main">
     <section class="hero">
       <div class="container">
+        <div class="hero-inner">
+          <div class="hero-inner_content hero-content">
+            <h1 class=" hero-content__title">Biz veb-saytlar, ilovalarni
+              ishlab chiqamiz</h1>
+            <p class=" hero-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a href="#" class="hero-content_link">
+              <img src="./images/portfolio-link.png" width="138" height="70" alt="portfolio-link">
+            </a>
+            <a href="#" class="portfolio-link--mobile">Портфолио</a>
+          </div>
+          <div class="hero-inner_sercle">
+            <canvas id="cobe" style="  width: 500px; height: auto" width="1000" height="1000"></canvas>
+          </div>
+        </div>
       </div>
     </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="about-wrapper">
+          <div class="about-wrapper__title">
+            <h2 class="about-wrapper__title-text">Kompaniya about</h2>
+            <p class="about-wrapper__title-parag">Agentlik-bu mijozlarga o'z bizneslari uchun sifatli va innovatsion
+              echimlarni taqdim etish maqsadida tashkil etilgan veb-agentlik. Bizning jamoamiz mijozlarga
+              moslashtirilgan va sifatli mahsulotni taklif qilish uchun yaqin hamkorlikda ishlaydigan tajribali
+              veb-dizayn, ishlab chiqish va marketing mutaxassislaridan iborat.
+              <br><br>
+              Biz veb-dizayn, veb-sayt va mobil ilovalarni ishlab chiqish, SEO optimallashtirish, kontent yaratish va
+              reklama kampaniyalarini o'z ichiga olgan keng ko'lamli xizmatlarni taklif etamiz. Biz eng yangi
+              texnologiyalar va innovatsion usullardan foydalangan holda brendni rivojlantirish va sotishni ko'paytirish
+              bilan shug'ullanamiz.
+            </p>
+          </div>
+          <ol class="about-list">
+            <li class="about-list__item">
+              <h3 class="about-list__item-text">20+</h3>
+              <p class="about-list__item-parag">Проектов запустил</p>
+            </li>
+
+            <li class="about-list__item">
+              <h3 class="about-list__item-text">12+</h3>
+              <p class="about-list__item-parag">Профессионалов</p>
+            </li>
+
+            <li class="about-list__item">
+              <h3 class="about-list__item-text">4 года</h3>
+              <p class="about-list__item-parag">Опыта разработки</p>
+            </li>
+
+            <li class="about-list__item">
+              <h3 class="about-list__item-text">4 года</h3>
+              <p class="about-list__item-parag">Опыта разработки</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="advantage">
+      <div class="container">
+        <div class="advantage-wrapper">
+          <h2 class="advantage-wrapper__title">Bizning afzalliklarimiz</h2>
+          <ul class="advantage-list">
+            <li class="advantage-list__item">
+              <h3 class="advantage-list__item-text">Individual yondashuv</h3>
+              <p class="advantage-list__item-parag">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
+                javob beradigan echimlarni yaratamiz</p>
+            </li>
+
+            <li class="advantage-list__item">
+              <h3 class="advantage-list__item-text">Ekspertiza</h3>
+              <p class="advantage-list__item-parag">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
+                javob beradigan echimlarni yaratamiz</p>
+            </li>
+
+          <div class="logo-wrapper">
+            <a href="#" class="logo-wrapper__icon">
+              <img class="logo-white" src="./images/site-logo.svg" width="158" height="66" alt="footer logo">
+
+              <img class="logo-black" src="./images/site-logo-black.svg" width="158" height="66" alt="footer logo">
+            </a>
+          </div>
+
+            <li class="advantage-list__item advantage-list__item-none">
+              <h3 class="advantage-list__item-text">Professional xizmat</h3>
+              <p class="advantage-list__item-parag">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
+                javob beradigan echimlarni yaratamiz</p>
+            </li>
+
+            <li class="advantage-list__item  advantage-list__item-none">
+              <h3 class="advantage-list__item-text">Individual yondashuv</h3>
+              <p class="advantage-list__item-parag">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
+                javob beradigan echimlarni yaratamiz</p>
+            </li>
+
+
+            <li class="advantage-list__item  advantage-list__item-none">
+              <h3 class="advantage-list__item-text">Ekspertiza</h3>
+              <p class="advantage-list__item-parag">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
+                javob beradigan echimlarni yaratamiz</p>
+            </li>
+
+            <li class="advantage-list__item  advantage-list__item-none">
+              <h3 class="advantage-list__item-text">Professional xizmat</h3>
+              <p class="advantage-list__item-parag">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
+                javob beradigan echimlarni yaratamiz</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="service">
+      <div class="container">
+        <div class="service-wrapper">
+          <h2 class="service-wrapper__title">Bizning xizmatlar</h2>
+          <ul class="service-list">
+            <li class="service-list__item">
+              <h3 class="service-list__item-title">Veb saytlar</h3>
+              <p class="service-list__item-parag">Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+            </li>
+
+            <li class="service-list__item">
+              <h3 class="service-list__item-title">UI/UX Dizayn</h3>
+              <p class="service-list__item-parag">Biz UI/UX dizayn xizmatlarini taqdim etamiz </p>
+            </li>
+
+            <li class="service-list__item">
+              <h3 class="service-list__item-title">Mobil ilovalar</h3>
+              <p class="service-list__item-parag">Biz eng yaxshi dizaynerlar xizmatlarini taqdim etamiz</p>
+            </li>
+
+            <li class="service-list__item">
+              <h3 class="service-list__item-title">SMM</h3>
+              <p class="service-list__item-parag">Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+            </li>
+
+            <li class="service-list__item">
+              <h3 class="service-list__item-title">Grafik dizayn</h3>
+              <p class="service-list__item-parag">Biz fotografiya xizmatlarini
+                taqdim etamiz </p>
+            </li>
+
+
+            <li class="service-list__item">
+              <h3 class="service-list__item-title">Motion dizayn</h3>
+              <p class="service-list__item-parag">Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <!-- <section class="haqida">
       <div class="container">
         <div class="haqida-wrapper">
@@ -369,12 +569,401 @@
         </div>
       </div>
     </section>
+
+    <section class="new-blog">
+      <div class="container">
+        <div class="new-blog__innner">
+          <h2 class="new-blog__title">Blog yangiliklarimiz</h2>
+          <div class="owl-carousel new-blog-owl-carousel owl-theme">
+            <div class="items new-blog-item list-li">
+              <a class="href-item" href="#">
+                <img class="list-image" src="./images/qa.jpg" srcset="./images/qa.jpg 1x, ./images/qa@2x.jpg"
+                  width="433" height="326" alt="QA">
+                <div class="item-wrap-in">
+                  <h3 class="item-in-text">«QA» mutaxassisi qanday bo'lishi kerak?</h3>
+                  <p class="item-of-text">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy
+                    ta'minotni testlash» kursi ham qo'shilgan. </p>
+                  <div class="hi-wrapper">
+                    <div class="item-hashtag"><a class="item-link" href="#">#hi_tech</a>
+                    </div>
+                    <div class="item-data">
+                      <time class="news-time" datetime="2017-02-14">
+                        14:45 &nbsp;&nbsp; 22/02/23
+                      </time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="items new-blog-item list-li">
+              <a class="href-item" href="#">
+                <img class="list-image" src="./images/qa.jpg" srcset="./images/qa.jpg 1x, ./images/qa@2x.jpg"
+                  width="433" height="326" alt="QA">
+                <div class="item-wrap-in">
+                  <h3 class="item-in-text">«QA» mutaxassisi qanday bo'lishi kerak?</h3>
+                  <p class="item-of-text">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy
+                    ta'minotni testlash» kursi ham qo'shilgan. </p>
+                  <div class="hi-wrapper">
+                    <div class="item-hashtag"><a class="item-link" href="#">#hi_tech</a>
+                    </div>
+                    <div class="item-data">
+                      <time class="news-time" datetime="2017-02-14">
+                        14:45 &nbsp;&nbsp; 22/02/23
+                      </time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="items new-blog-item list-li">
+              <a class="href-item" href="#">
+                <img class="list-image" src="./images/qa.jpg" srcset="./images/qa.jpg 1x, ./images/qa@2x.jpg"
+                  width="433" height="326" alt="QA">
+                <div class="item-wrap-in">
+                  <h3 class="item-in-text">«QA» mutaxassisi qanday bo'lishi kerak?</h3>
+                  <p class="item-of-text">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy
+                    ta'minotni testlash» kursi ham qo'shilgan. </p>
+                  <div class="hi-wrapper">
+                    <div class="item-hashtag"><a class="item-link" href="#">#hi_tech</a>
+                    </div>
+                    <div class="item-data">
+                      <time class="news-time" datetime="2017-02-14">
+                        14:45 &nbsp;&nbsp; 22/02/23
+                      </time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="items new-blog-item list-li">
+              <a class="href-item" href="#">
+                <img class="list-image" src="./images/qa.jpg" srcset="./images/qa.jpg 1x, ./images/qa@2x.jpg"
+                  width="433" height="326" alt="QA">
+                <div class="item-wrap-in">
+                  <h3 class="item-in-text">«QA» mutaxassisi qanday bo'lishi kerak?</h3>
+                  <p class="item-of-text">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy
+                    ta'minotni testlash» kursi ham qo'shilgan. </p>
+                  <div class="hi-wrapper">
+                    <div class="item-hashtag"><a class="item-link" href="#">#hi_tech</a>
+                    </div>
+                    <div class="item-data">
+                      <time class="news-time" datetime="2017-02-14">
+                        14:45 &nbsp;&nbsp; 22/02/23
+                      </time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          <div class="icons-wrapper">
+
+            <ul class="icons-list">
+                <li class="icons-item">
+                  <a href="https://web.telegram.org/z/" target="blank">
+                    <img class="logo-white" src="./images/telegram.svg" width="30" height="30" alt="Telegram">
+                    <img class="logo-black" src="./images/telegram-light.svg" width="30" height="30" alt="Telegram">
+                  </a>
+                </li>
+  
+                <li class="icons-item icon-face">
+                  <a href="https://www.facebook.com/" target="blank">
+
+                    <img  class="logo-white" src="./images/facebook-icon.svg" width="30" height="30" alt="Facebook">
+                    
+                    <img  class="logo-black" src="./images/facebook-light.svg" width="30" height="30" alt="Facebook">
+                  </a>
+                </li>
+                
+                <li class="icons-item">
+                  <a href="https://www.instagram.com/" target="blank">
+
+                    <img  class="logo-white" src="./images/instagram.svg" width="30" height="30" alt="Instagram">
+                     
+                    <img   class="logo-black" src="./images/instagram-light.svg" width="30" height="30" alt="Instagram">
+                  </a>
+                </li>
+  
+              </ul>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="our-team">
+      <div class="container">
+        <div class="our-team__innner">
+          <h2 class="our-team__title">Bizning jamoa</h2>
+          <div class="owl-carousel our-team-owl-carousel owl-theme">
+            <div class="items our-team-item">
+              <img class="our-team-img" src="./images/pm.jpg" height="326" width="317"
+                srcset="./images/pm.jpg 1x, ./images/pm@2x.jpg 2x" alt="pm">
+              <div class="user-contact">
+                <p class="user-name">Saidalixon Sobirov</p>
+                <span class="line"></span>
+                <p class="user-job">Project Manager</p>
+              </div>
+            </div>
+            <div class="items our-team-item">
+              <img class="our-team-img" src="./images/uxustoz.jpg" height="326" width="317"
+                srcset="./images/uxustoz.jpg 1x, ./images/uxustoz@2x.jpg 2x" alt="pm">
+              <div class="user-contact">
+                <p class="user-name">Saidalixon Sobirov</p>
+                <span class="line"></span>
+                <p class="user-job">UX/UI web designer</p>
+              </div>
+
+            </div>
+            <div class="items our-team-item">
+              <img class="our-team-img" src="./images/smmustoz.jpg" height="326" width="317"
+                srcset="./images/smmustoz.jpg 1x, ./images/smmustoz@2x.jpg 2x" alt="pm">
+              <div class="user-contact">
+                <p class="user-name">Saidalixon Sobirov</p>
+                <span class="line"></span>
+                <p class="user-job">SMM designer</p>
+              </div>
+            </div>
+            <div class="items our-team-item">
+              <img class="our-team-img" src="./images/frontend.jpg" height="326" width="317"
+                srcset="./images/frontend.jpg 1x, ./images/frontend@2x.jpg 2x" alt="pm">
+              <div class="user-contact">
+                <p class="user-name">Saidalixon Sobirov</p>
+                <span class="line"></span>
+                <p class="user-job">Frontend dasturchi</p>
+              </div>
+            </div>
+            <div class="items our-team-item">
+              <img class="our-team-img" src="./images/pm.jpg" height="326" width="317"
+                srcset="./images/pm.jpg 1x, ./images/pm@2x.jpg 2x" alt="pm">
+              <div class="user-contact">
+                <p class="user-name">Saidalixon Sobirov</p>
+                <span class="line"></span>
+                <p class="user-job">Project Manager</p>
+              </div>
+            </div>
+            <div class="items our-team-item">
+              <img class="our-team-img" src="./images/uxustoz.jpg" height="326" width="317"
+                srcset="./images/uxustoz.jpg 1x, ./images/uxustoz@2x.jpg 2x" alt="pm">
+              <div class="user-contact">
+                <p class="user-name">Saidalixon Sobirov</p>
+                <span class="line"></span>
+                <p class="user-job">UX/UI web designer</p>
+              </div>
+
+            </div>
+            <div class="items our-team-item">
+              <img class="our-team-img" src="./images/smmustoz.jpg" height="326" width="317"
+                srcset="./images/smmustoz.jpg 1x, ./images/smmustoz@2x.jpg 2x" alt="pm">
+              <div class="user-contact">
+                <p class="user-name">Saidalixon Sobirov</p>
+                <span class="line"></span>
+                <p class="user-job">SMM designer</p>
+              </div>
+            </div>
+            <div class="items our-team-item">
+              <img class="our-team-img" src="./images/frontend.jpg" height="326" width="317"
+                srcset="./images/frontend.jpg 1x, ./images/frontend@2x.jpg 2x" alt="pm">
+              <div class="user-contact">
+                <p class="user-name">Saidalixon Sobirov</p>
+                <span class="line"></span>
+                <p class="user-job">Frontend dasturchi</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
   </main>
   <footer class="site-footer">
+    <div class="container">
+      <div class="footer-wrapper">
 
+        <div class="logo-wrapper">
+          <a href="#" class="logo-wrapper__icon">
+            <img src="./images/site-logo.svg" width="158" height="66" alt="footer logo">
+          </a>
+        </div>
+
+        <div class="address-wrapper">
+          <address class="address-in">
+            Manzil: Toshkent shahri, Sergeli tumani, Navro'z ko'cha 3-uy.
+            Mo'ljal: “ASIA AUTO” avtosalon ichki qismi
+          </address>
+        </div>
+
+        <div class="phone-wrapper">
+          <a class="phone-tel phone" href="tel:+998999999999" target="blank">+998 99 999 99 99</a>
+          <br>
+          <a class="phone-tel" href="tel:+998999999999" target="blank">+998 99 999 99 99</a>
+        </div>
+
+        <div class="icons-wrapper">
+          <ul class="icons-list">
+            <li class="icons-item">
+              <a href="https://web.telegram.org/z/" target="blank">
+                <img src="./images/telegram.svg" width="30" height="30" alt="Telegram">
+              </a>
+            </li>
+
+            <li class="icons-item icon-face">
+              <a href="https://www.facebook.com/" target="blank">
+                <img src="./images/facebook-icon.svg" width="30" height="30" alt="Facebook">
+              </a>
+            </li>
+
+            <li class="icons-item">
+              <a href="https://www.instagram.com/" target="blank">
+                <img src="./images/instagram.svg" width="30" height="30" alt="Instagram">
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
   </footer>
 
+  <div class="menu-header">
+    <div class="menu-header__inner">
+      <div class="menu-header__top">
+        <a href="#">
+          <img src="./images/site-logo.svg" width="72" height="50" alt="site-logo">
 
+        </a>
+        <button class="close-btn">
+          <img src="./images/close-btn.svg" width="23" height="23" alt="close-btn">
+        </button>
+      </div>
+      <div class="menu-header__bottom">
+        <nav class="menu-header-nav">
+          <ul class="list">
+            <li class="list-item">
+              <a class="list-link" href="#">О компании</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Портфолио</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Услуги</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="phone-number-menu" href="tel:+998907777777"> (90) 777-77-77</a>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module">
+    // import createGlobe from 'https://cdn.skypack.dev/cobe'
+
+    let phi = 0
+    let canvas = document.getElementById("cobe")
+
+
+
+    const site_body = window.innerWidth
+
+    if (site_body >= 1000) {
+      const globe = createGlobe(canvas, {
+        devicePixelRatio: 2,
+        width: 1000,
+        height: 1000,
+        phi: 0,
+        theta: 0,
+        dark: 0,
+        diffuse: 1.2,
+        scale: 1,
+        mapSamples: 16000,
+        mapBrightness: 6,
+        baseColor: [1, 1, 1],
+        markerColor: [1, 0.5, 1],
+        glowColor: [1, 1, 1],
+        offset: [0, 0],
+        markers: [
+          { location: [37.7595, -122.4367], size: 0.03 },
+          { location: [40.7128, -74.006], size: 0.1 },
+        ],
+
+        onRender: (state) => {
+          // Called on every animation frame.
+          // `state` will be an empty object, return updated params.
+          state.phi = phi
+          phi += 0.01
+        },
+      })
+
+    } else if (site_body <= 1000 && site_body >= 400) {
+      const globe = createGlobe(canvas, {
+        devicePixelRatio: 2,
+        width: 1000,
+        height: 1000,
+        phi: 0,
+        theta: 0,
+        dark: 0,
+        diffuse: 1.2,
+        scale: 0.70,
+        mapSamples: 16000,
+        mapBrightness: 6,
+        baseColor: [1, 1, 1],
+        markerColor: [1, 0.5, 1],
+        glowColor: [1, 1, 1],
+        offset: [0, 0],
+        markers: [
+          { location: [37.7595, -122.4367], size: 0.03 },
+          { location: [40.7128, -74.006], size: 0.1 },
+        ],
+
+        onRender: (state) => {
+          // Called on every animation frame.
+          // `state` will be an empty object, return updated params.
+          state.phi = phi
+          phi += 0.01
+        },
+      })
+    } else {
+      const globe = createGlobe(canvas, {
+        devicePixelRatio: 2,
+        width: 1000,
+        height: 1000,
+        phi: 0,
+        theta: 0,
+        dark: 0,
+        diffuse: 1.2,
+        scale: 0.50,
+        mapSamples: 16000,
+        mapBrightness: 6,
+        baseColor: [1, 1, 1],
+        markerColor: [1, 0.5, 1],
+        glowColor: [1, 1, 1],
+        offset: [0, 0],
+        markers: [
+          { location: [37.7595, -122.4367], size: 0.03 },
+          { location: [40.7128, -74.006], size: 0.1 },
+        ],
+
+        onRender: (state) => {
+          // Called on every animation frame.
+          // `state` will be an empty object, return updated params.
+          state.phi = phi
+          phi += 0.01
+        },
+      })
+    }
+
+
+
+  </script>
   <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
   <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
   <script src="./js/main.js"></script>
