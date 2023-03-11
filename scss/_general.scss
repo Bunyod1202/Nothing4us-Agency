@@ -25,6 +25,16 @@ button {
   cursor: pointer;
 }
 
+ul, ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
 .site-body {
   display: flex;
   flex-direction: column;
@@ -42,6 +52,14 @@ button {
   background-size: 1600px;
   background-position: center 0;
   height: 6800px;
+  background-repeat: no-repeat;
+}
+
+.site-body__portfolio{
+  background-image: url("../images/body-background.png");
+  background-size: 1600px;
+  background-position: center 0;
+  height: 3220px;
   background-repeat: no-repeat;
 }
 /* STICKY-FOOTER */
