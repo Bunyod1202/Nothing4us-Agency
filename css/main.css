@@ -4,6 +4,9 @@
   --main-porple-color: #6911ad;
   --main-blue-color: #5454d4;
   --main-dark-color: #000000;
+  --card-dark-color: rgba(17, 19, 23, 0.5);
+  --card-dark-border:#4E4E4E;
+  --service-cards-color:rgba(14, 16, 20, 0.9);
 }
 
 .body--dark {
@@ -11,6 +14,9 @@
   --main-porple-color: #6911ad;
   --main-blue-color: #5454d4;
   --main-dark-color: #ffffff;
+  --card-dark-color: rgba(243, 243, 243, 0.5);
+  --card-dark-border:#999;
+  --service-cards-color:rgba(255, 255, 255, 0.9);
 }
 
 /* MIXINS */ /**
@@ -691,8 +697,8 @@ button {
   margin: 0;
   margin-top: 40px;
   padding: 30px 24px 24px 24px;
-  background: rgba(17, 19, 23, 0.5);
-  border: 1px solid #4E4E4E;
+  background: var(--card-dark-color);
+  border: 1px solid var(--card-dark-border);
   -webkit-backdrop-filter: blur(2.5px);
           backdrop-filter: blur(2.5px);
   border-radius: 20px;
@@ -806,13 +812,13 @@ button {
   }
 }
 .service {
-  padding-bottom: 120px;
+  padding: 120px 0px;
 }
 
 .service-wrapper {
   padding: 40px 121px 89px 122px;
-  background: rgba(14, 16, 20, 0.9);
-  border: 1px solid #4E4E4E;
+  background: var(--service-cards-color);
+  border: 1px solid var(--card-dark-border);
   -webkit-backdrop-filter: blur(1px);
           backdrop-filter: blur(1px);
   border-radius: 20px;
@@ -1017,10 +1023,318 @@ button {
     text-align: center;
   }
 }
+.site-body__news {
+  background-image: url("../../images/body-background.png");
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  height: 3023px;
+}
+
+.news-wrapper {
+  padding-top: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 120px;
+}
+
+.news-image-wrapper {
+  padding-bottom: 41px;
+}
+
+.news-image {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 22px;
+}
+
+.meeting-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1012px;
+  margin: 0;
+  padding: 40px 40px 22px 40px;
+  background: var(--service-cards-color);
+  border: 1px solid var(--card-dark-border);
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  border-radius: 20px;
+}
+
+.meeting-title {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: left;
+  font-family: "Proxima Nova";
+  color: var(--main-white-color);
+  margin: 0;
+}
+
+.meeting-texts {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Gilroy";
+  margin: 0;
+  padding: 23px 0;
+  color: var(--main-white-color);
+}
+
+.meeting-zoom {
+  width: 100%;
+  max-width: 932px;
+  margin: 0;
+  border-radius: 20px;
+}
+
+.meeting-text {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Gilroy";
+  margin: 0;
+  padding: 25px 0 30px 0;
+  color: var(--main-white-color);
+  border-bottom: 1px solid #989898;
+}
+
+.news-right {
+  margin-left: 30px;
+  position: sticky;
+  top: 40px;
+  height: 100%;
+}
+
+.news-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.news-list__item {
+  width: 318px;
+  margin: 0;
+  background: var(--service-cards-color);
+  border: 1px solid var(--card-dark-border);
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  border-radius: 22px;
+  margin-bottom: 30px;
+}
+
+.news-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.news-dizan {
+  border-radius: 20px 20px 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-wrappers-innews {
+  padding: 15px 20px 25px 20px;
+}
+
+.news-list__text {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: left;
+  font-family: "Proxima Nova";
+  margin: 0;
+  color: var(--main-white-color);
+}
+
+.tech-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 22px;
+}
+
+.hi-tech {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Gilroy";
+  color: var(--main-white-color);
+}
+
+.two-wrap {
+  position: relative;
+}
+
+.two-wrap::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-image: url("../../images/time.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: -3px;
+}
+
+.body--dark .two-wrap::before {
+  background-image: url("../../images/time-light.png");
+}
+.body--dark .three-wrap::before {
+  background-image: url("../../images/share-light.png");
+}
+
+.news-time {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Gilroy";
+  color: var(--main-white-color);
+  padding-left: 34px;
+}
+
+.three-wrap {
+  position: relative;
+}
+
+.three-wrap::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-image: url("../../images/share.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: -3px;
+}
+
+.news-like {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Gilroy";
+  color: var(--main-white-color);
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 910px) {
+  .news-wrapper {
+    padding-top: 41px;
+    display: block;
+    padding-bottom: 120px;
+  }
+  .big-wrap {
+    margin-bottom: 80px;
+  }
+  .news-image-wrapper {
+    padding-bottom: 41px;
+  }
+  .news-image {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 22px;
+  }
+  .meeting-title {
+    font-style: normal;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .two-wrap {
+    margin: 0 20px;
+  }
+  .news-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .news-list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 320px;
+    margin: 0;
+    background: var(--service-cards-color);
+    border: 1px solid var(--card-dark-border);
+    -webkit-backdrop-filter: blur(1px);
+            backdrop-filter: blur(1px);
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .meeting-wrapper {
+    padding: 20px;
+    background: var(--service-cards-color);
+  }
+  .meeting-title {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .meeting-texts, .meeting-text {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: left;
+    padding: 15px 0;
+  }
+  .news-right {
+    display: none;
+  }
+  .one-wrap {
+    display: none;
+  }
+  .two-wrap {
+    margin: 0;
+  }
+  .news-wrapper {
+    padding-top: 41px;
+    padding-bottom: 80px;
+  }
+  .big-wrap {
+    margin-bottom: 0px;
+  }
+}
 .site-footer {
   padding: 81px 0;
-  background: rgba(14, 16, 20, 0.9);
-  border-top: 1px solid #4E4E4E;
+  background: var(--service-cards-color);
+  border-top: 1px solid var(--card-dark-border);
   -webkit-backdrop-filter: blur(1px);
           backdrop-filter: blur(1px);
   border-radius: 20px 20px 0px 0px;
@@ -1130,6 +1444,23 @@ button {
   background-size: cover;
   background-position: center;
   left: 0;
+}
+
+.body--dark .phone-tel::before {
+  background-image: url("../../images/phone-light.svg");
+}
+.body--dark .address-wrapper::before {
+  background-image: url("../../images/location-light.svg");
+}
+.body--dark .logo-white {
+  display: none;
+}
+.body--dark .logo-black {
+  display: block;
+}
+
+.logo-black {
+  display: none;
 }
 
 .phone {

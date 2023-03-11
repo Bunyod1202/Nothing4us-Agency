@@ -23,8 +23,8 @@
     margin: 0;
     margin-top: 40px;
     padding: 30px 24px 24px 24px;
-    background: rgba(17, 19, 23, 0.5);
-    border: 1px solid #4E4E4E;
+    background: var(--card-dark-color);
+    border: 1px solid var(--card-dark-border);
     backdrop-filter: blur(2.5px);
     border-radius: 20px;
 
