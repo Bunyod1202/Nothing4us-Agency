@@ -1,0 +1,238 @@
+.projects__box{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects--portfolio{
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.projects__title{
+  margin-top: 0;
+  margin-bottom: 40px;
+  @include typography-styles(normal, 36px, 44px, 700, center);
+}
+
+.projects__list{
+  @include flexbox(center, center, row);
+  @include list-unstyle();
+  width: 100%;
+  max-width: 664px;
+  margin: 0 auto ;
+  margin-bottom: 40px;
+  border: 1px solid #4E4E4E;
+  backdrop-filter: blur(2px);
+  border-radius: 90px;
+}
+
+.projects__item{
+  &:nth-child(1){
+    padding: 16px 52px;
+  }
+  &:nth-child(2){
+    padding: 16px 23px;
+  }
+  &:nth-child(3){
+    padding: 16px 38px;
+  }
+  &:nth-child(4){
+    padding: 16px 22px;
+  }
+  &:nth-child(5){
+    padding: 16px 36px;
+  }
+}
+
+.projects__link{
+  display: inline-block;
+  @include typography-styles(normal, 16px, 19px, 700, center);
+  color: var(--main-white-color);
+  &:hover{
+    text-decoration: underline;
+    transition: 2s ease;
+  }
+}
+
+.projects__item--active{
+  background: linear-gradient(93.5deg, #1E11AD 12.37%, rgba(105, 17, 173, 0.95) 85.28%);
+  border-radius: 30px;
+}
+
+.choose {
+  padding-bottom: 160px;
+}
+
+.panel__list {
+  display: none;
+}
+
+.panel__effect{
+  display: none;
+
+}
+
+.panel__item{
+  position: relative;
+  width: 100%;
+  max-width: 433px;
+  height: 362px;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  &:hover .panel__effect{
+    display: block;
+    padding: 25px 25px 30px 25px;
+    width: 403px;
+    height: 332px;
+    margin: auto;
+    display: flex;
+    align-items: end;
+    background-image: url("../images/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: top right ;
+    background-size: 87px ;
+    color: var(--main-white-color);
+    background-color: hsl(0, 0%, 0%, 87%);
+    top: 15px;
+    left: 15px;
+    border-radius: 5px;
+  }
+
+
+}
+
+.panel__mb1{
+  background-image: url("../images/uymakon.jpg");
+}
+
+.panel__mb2{
+  background-image: url("../images/uymakonfour.jpg");
+}
+
+.panel__vs1{
+  background-image: url("../images/uymakontwo.jpg");
+}
+
+.panel__vs2{
+  background-image: url("../images/uymakonfive.jpg");
+}
+
+.panel__smm1{
+  background-image: url("../images/uymakonthree.jpg");
+}
+
+.panel__smm2{
+  background-image: url("../images/uymakonsix.jpg");
+}
+
+.panel__list--active {
+  display: block;
+  width: 100%;
+  @include flexbox(space-between, center, row);
+  flex-wrap: wrap;
+  @include list-unstyle;
+}
+
+.projects__wrap{
+  width: 174px;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-image: url("../images/allSee.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.project__see-link{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+// Desktop media
+@include desktop-first(1215px) {
+
+
+  .panel__item {
+    margin-right: 10px;
+
+    &:nth-child(2) {
+      margin-right: 0;
+    }
+
+    &:nth-child(4) {
+      margin-right: 0;
+    }
+
+    &:nth-child(6) {
+      margin-right: 0;
+    }
+  }
+}
+
+// Mobile media
+@include desktop-first(920px) {
+
+  .panel__list--active {
+    justify-content: center;
+  }
+}
+
+@include desktop-first(710px) {
+
+  .projects--portfolio{
+    padding-top: 60px;
+    padding-bottom: 110px;
+  }
+
+  .projects__title{
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .projects__list{
+    display: none;
+  }
+}
+@include desktop-first(650px) {
+  .panel__item {
+    width: 100%;
+    max-width: 358px;
+    height: 320px;
+    margin-right: 0;
+    background-position: center;
+  }
+
+}
+
+@include desktop-first(390px) {
+  .projects--portfolio{
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+
+}
+
+@include desktop-first(360px) {
+  .projects__title{
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .panel__item{
+    height: 301px;
+  }
+  .panel__item-infos {
+    @include flexbox(center, center, column);
+  }
+
+  .panel__info-list {
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+
+}
