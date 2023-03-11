@@ -62,49 +62,87 @@ elTabLinks.forEach(function (link) {
 
 
 // carousel
-$('.hero-owl-carousel').owlCarousel({
-  loop: true,
-  margin: 10,
-  responsiveClass: true,
-  autoplay: true,
-  autoplayTimeout: 4000,
-  autoplayHoverPause: true,
-  loop: true,
-  responsive: {
-    0: {
-      items: 1,
-      nav: true
-    },
-    600: {
-      items: 1,
-      nav: false
-    },
-    1000: {
-      items: 1,
-      nav: true,
+// $('.hero-owl-carousel').owlCarousel({
+//   loop: true,
+//   margin: 10,
+//   responsiveClass: true,
+//   autoplay: true,
+//   autoplayTimeout: 4000,
+//   autoplayHoverPause: true,
+//   loop: true,
+//   responsive: {
+//     0: {
+//       items: 1,
+//       nav: true
+//     },
+//     600: {
+//       items: 1,
+//       nav: false
+//     },
+//     1000: {
+//       items: 1,
+//       nav: true,
 
-    }
-  }
-})
-$('.community-owl-carousel').owlCarousel({
+//     }
+//   }
+// })
+$('.our-team-owl-carousel').owlCarousel({
   loop: true,
   margin: 10,
   responsiveClass: true,
   // autoplay:true,
   // autoplayTimeout:4000,
   // autoplayHoverPause: true,
-  loop: true,
+  dots: false,
+  nav: true,
   responsive: {
     0: {
       items: 1,
       nav: true
     },
-    600: {
+    700: {
+      items: 2,
+      nav: true
+    },
+    1394: {
+      items: 3,
+      nav: true,
+    },
+    1400: {
+      items: 4,
+      nav: true,
+
+    }
+  }
+})
+$('.new-blog-owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  responsiveClass: true,
+  // autoplay:true,
+  // autoplayTimeout:4000,
+  // autoplayHoverPause: true,
+  dots: false,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+      nav: true
+    },
+    700: {
       items: 1.5,
-      nav: false
+      nav: true
     },
     1000: {
-      items: 1.5,
+      items: 2,
+      nav: true
+    },
+    1394: {
+      items: 2,
+      nav: true,
+    },
+    1400: {
+      items: 3,
       nav: true,
 
     }

@@ -1,0 +1,82 @@
+.our-team-item {
+  position: relative;
+  height: 382px;
+}
+.our-team-img {
+  width: 100%;
+  border-radius: 65px;
+}
+.user-contact {
+  width: 296px;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: var(--main-teach-color);
+  border: 1px solid #4e4e4e;
+  text-align: center;
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+  // transform: translateY(50%);
+}
+.user-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0;
+}
+.user-job {
+  margin: 0;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.8;
+}
+.line {
+  display: inline-block;
+  width: 100px;
+  height: 2px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #2e2d2e;
+}
+
+.owl-nav {
+  position: absolute;
+  right: -60px;
+  bottom: 50%;
+  text-align: left !important;
+  display: flex;
+}
+.owl-prev {
+  margin-right: 1365px !important;
+}
+.body--dark {
+  .owl-prev,
+  .owl-next {
+    background-image: url("../../images/arrov-carusel-daark.svg") !important;
+  }
+}
+.owl-prev,
+.owl-next {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+  background-color: var(--main-teach-color) !important;
+  backdrop-filter: blur(2px) !important;
+  background-image: url("../../images/arrov-carusel.svg") !important;
+  background-size: 15px !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  span {
+    display: none !important;
+  }
+}
+.owl-prev {
+  transform: rotate(180deg);
+}
