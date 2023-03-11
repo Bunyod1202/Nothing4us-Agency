@@ -34,13 +34,14 @@ ol {
   list-style: none;
 }
 
-ul, ol{
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -60,21 +61,18 @@ a{
   background-image: url("../images/main-bg.png");
   background-size: 1600px;
   background-position: center top 700px;
-  height: 6800px;
   background-repeat: no-repeat;
 }
 
-
-.site-body__portfolio{
+.site-body__portfolio {
   background-image: url("../images/body-background.png");
   background-size: 1600px;
   background-position: center 0;
-  height: 3220px;
-  background-repeat: no-repeat;
 
+  background-repeat: no-repeat;
+}
 .body--dark .site-body__home {
   background-image: url("../images/main-bg.png");
-
 }
 /* STICKY-FOOTER */
 .site-main {

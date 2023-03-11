@@ -10,7 +10,54 @@
 </head>
 
 <body class="site-body site-body__portfolio">
-
+  <header class="site-header header">
+    <div class="container">
+      <div class="header_inner">
+        <div class="header-left">
+          <button class="menu-btn">
+            <img class="menu-btn-dark" src="./images/menu-icon-dark.svg" alt="">
+            <img class="menu-btn-light" src="./images/menu-icon.svg" alt="">
+          </button>
+          <a href="./index.html">
+            <img class="light-logo" src="./images/site-logo.svg" width="72" height="50" alt="site-logo">
+            <img class="dark-logo" src="./images/site-logo-black.svg" width="72" height="50" alt="site-logo">
+          </a>
+          <nav class="header-nav">
+            <ul class="list">
+              <li class="list-item">
+                <a class="list-link" href="./news.html">О компании</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="#">Услуги</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-right">
+          <div class="header-theme">
+            <div class="switch">
+              <input type="checkbox" name="switch" class="switch-checkbox" id="demo-switch" checked="checked">
+              <label class="switch-label" for="demo-switch">
+                <span class="switch-inner"></span>
+                <span class="switch-click"></span>
+              </label>
+            </div>
+          </div>
+          <div class="contact">
+            <a class="phone-number" href="tel:+998907777777">+998 90 777-77-77</a>
+            <a class="emil-adress" href="mailto:chotatam@gmail.com">chotatam@gmail.com</a>
+          </div>
+          <a href="#" class="order-btn">Заказать звонок</a>
+        </div>
+      </div>
+    </div>
+  </header>
   <main class="site-main">
     <section class="projects projects--portfolio">
       <div class="container">
@@ -373,8 +420,175 @@
       </div>
 
     </section>
-  </main>
+    <section class="discussion">
+      <div class="container">
+        <div class="discussion__box">
+          <form class="discussion__form form" action="https://echo.htmlacademy.ru/courses" method="POST">
+            <div class="discussion__left">
+              <h2 class="discussion__title">Sizni bir finjon qahva ustida loyihangizni batafsil muhokama qilishga
+                mamnuniyat ila taklif qilamiz.</h2>
+              <input class="form__input" type="text" name="first_name" placeholder="Ismingiz" required>
+              <input class="form__input" type="tel" name="phone" placeholder="Telefon raqamingiz" required>
+              <input class="form__input" type="text" name="idea" placeholder="G'oyangiz xaqida qisqacha (Muhim emas)">
+              <h3 class="services-title">Qanday xizmatlardan foydalanishni xoxlaysiz?</h3>
+              <div class="form__wrap">
 
+                <div class="form__left">
+                  <label class="form__label">
+                    <input type="checkbox" name="backend">
+                    Backend
+                  </label>
+                  <label class="form__label">
+                    <input type="checkbox" name="crm">
+                    CRM ishlab chiqish
+                  </label>
+                  <div class="label-box">
+                    <input type="checkbox" name="online_shop" id="online-shop">
+                    <label class="form__label" for="online-shop">
+                      Internet magazin ishlab chiqish
+                    </label>
+                  </div>
+
+                  <label class="form__label">
+                    <input type="checkbox" name="logotip">
+                    Logotip va Brandbook
+                  </label>
+                  <label class="form__label">
+                    <input type="checkbox" name="portal">
+                    Portal ishlab chiqish
+                  </label>
+                  <label class="form__label">
+                    <input type="checkbox" name="web_design">
+                    Veb dizayn
+                  </label>
+                  <label class="form__label">
+                    <input type="checkbox" name="mobilograf">
+                    Mobilograf
+                  </label>
+                </div>
+                <div class="form__right">
+                  <label class="form__label">
+                    <input type="checkbox" name="Frontend">
+                    Frontend
+                  </label>
+                  <label class="form__label">
+                    <input type="checkbox" name="grafic_design">
+                    Grafik dizayn
+                  </label>
+                  <label class="form__label">
+                    <input type="checkbox" name="motion_design">
+                    Motion dizayn
+                  </label>
+                  <div class="label-box">
+                    <input type="checkbox" name="online_shop" id="online-shop">
+                    <label class="form__label" for="online-shop">
+                      Mobil ilova ishlab chiqish
+                    </label>
+                  </div>
+
+                  <label class="form__label">
+                    <input type="checkbox" name="web_site">
+                    Veb sayt ishlab chiqish
+                  </label>
+                  <label class="form__label">
+                    <input type="checkbox" name="smm_design">
+                    SMM dizayn
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="discussion__right choice">
+              <div class="choice__wrap">
+                <h3 class="choice__title">NIMANI MA'QUL KO'RASIZ?</h3>
+                <ul class="choice__list">
+                  <li class="choice__item">
+                    <img class="choice__img" src="./images/achchiqcofe.png"
+                      srcset="./images/achchiqcofe.png 1x, ./images/achchiqcofe2x.png 2x" alt="Achchiq kofe">
+                    <p class="choice__text">Achchiq kofe</p>
+                  </li>
+                  <li class="choice__item">
+                    <img class="choice__img" src="./images/sutlicofe.png"
+                      srcset="./images/sutlicofe.png 1x, ./images/sutlicofe2x.png 2x" alt="Sutli kofe">
+                    <p class="choice__text">Sutli kofe</p>
+                  </li>
+                  <li class="choice__item">
+                    <img class="choice__img" src="./images/suv.png" srcset="./images/suv.png 1x, ./images/suv2x.png 2x"
+                      alt="Suv">
+                    <p class="choice__text">Suv</p>
+                  </li>
+                  <li class="choice__item">
+                    <img class="choice__img" src="./images/choy.png"
+                      srcset="./images/choy.png 1x, ./images/choy2x.png 2x" alt="Choy">
+                    <p class="choice__text">Choy</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="discussion__btn-box"></div>
+              <button class="discussion__btn" type="submit">Mijoz bo’lish </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-wrapper">
+
+        <div class="logo-wrapper">
+          <a href="#" class="logo-wrapper__icon">
+            <img class="logo-white" src="./images/site-logo.svg" width="158" height="66" alt="footer logo">
+
+            <img class="logo-black" src="./images/site-logo-black.svg" width="158" height="66" alt="footer logo">
+          </a>
+        </div>
+
+        <div class="address-wrapper">
+          <address class="address-in">
+            Manzil: Toshkent shahri, Sergeli tumani, Navro'z ko'cha 3-uy.
+            Mo'ljal: “ASIA AUTO” avtosalon ichki qismi
+          </address>
+        </div>
+
+        <div class="phone-wrapper">
+          <a class="phone-tel phone" href="tel:+998999999999" target="blank">+998 99 999 99 99</a>
+          <br>
+          <a class="phone-tel" href="tel:+998999999999" target="blank">+998 99 999 99 99</a>
+        </div>
+
+        <div class="icons-wrapper">
+          <ul class="icons-list">
+            <li class="icons-item">
+              <a href="https://web.telegram.org/z/" target="blank">
+                <img class="logo-white" src="./images/telegram.svg" width="30" height="30" alt="Telegram">
+                <img class="logo-black" src="./images/telegram-light.svg" width="30" height="30" alt="Telegram">
+              </a>
+            </li>
+
+            <li class="icons-item icon-face">
+              <a href="https://www.facebook.com/" target="blank">
+
+                <img class="logo-white" src="./images/facebook-icon.svg" width="30" height="30" alt="Facebook">
+
+                <img class="logo-black" src="./images/facebook-light.svg" width="30" height="30" alt="Facebook">
+              </a>
+            </li>
+
+            <li class="icons-item">
+              <a href="https://www.instagram.com/" target="blank">
+
+                <img class="logo-white" src="./images/instagram.svg" width="30" height="30" alt="Instagram">
+
+                <img class="logo-black" src="./images/instagram-light.svg" width="30" height="30" alt="Instagram">
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
   <script src="./js/main.js"></script>
 </body>
 

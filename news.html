@@ -1,173 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
-    <link rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News</title>
+  <link rel="stylesheet"
     href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
   <link rel="stylesheet"
     href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body class="site-body  site-body__news">
+  <header class="site-header header">
+    <div class="container">
+      <div class="header_inner">
+        <div class="header-left">
+          <button class="menu-btn">
+            <img class="menu-btn-dark" src="./images/menu-icon-dark.svg" alt="">
+            <img class="menu-btn-light" src="./images/menu-icon.svg" alt="">
+          </button>
+          <a href="./index.html">
+            <img class="light-logo" src="./images/site-logo.svg" width="72" height="50" alt="site-logo">
+            <img class="dark-logo" src="./images/site-logo-black.svg" width="72" height="50" alt="site-logo">
+          </a>
+          <nav class="header-nav">
+            <ul class="list">
+              <li class="list-item">
+                <a class="list-link" href="./news.html">О компании</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="#">Услуги</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-right">
+          <div class="header-theme">
+            <div class="switch">
+              <input type="checkbox" name="switch" class="switch-checkbox" id="demo-switch" checked="checked">
+              <label class="switch-label" for="demo-switch">
+                <span class="switch-inner"></span>
+                <span class="switch-click"></span>
+              </label>
+            </div>
+          </div>
+          <div class="contact">
+            <a class="phone-number" href="tel:+998907777777">+998 90 777-77-77</a>
+            <a class="emil-adress" href="mailto:chotatam@gmail.com">chotatam@gmail.com</a>
+          </div>
+          <a href="#" class="order-btn">Заказать звонок</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="site-main">
+    <section class="news-intro">
+      <div class="container">
+        <div class="news-wrapper">
+          <div class="big-wrap">
+            <div class="news-image-wrapper">
+              <img aria-label="News" class="news-image" src="./images/itpark-hero.jpg"
+                srcset="./images/itpark-hero.jpg 1x, ./images/itpark-hero@2x.jpg" width="1000" height="757"
+                alt="Meeting">
+            </div>
 
-    <main class="site-main">
-        <section class="news-intro">
-            <div class="container">
-                <div class="news-wrapper">
-                    <div class="big-wrap">
-                        <div class="news-image-wrapper">
-                            <img  aria-label="News" class="news-image" src="./images/itpark-hero.jpg"                     srcset="./images/itpark-hero.jpg 1x, ./images/itpark-hero@2x.jpg" width="1000" height="757"
-                            alt="Meeting">
-                        </div>
-
-                        <div class="meeting-wrapper">
-                            <div class="meeting-in-wrapper">
-                                <h1 aria-hidden="true" hidden>Insof bersin hammaga</h1>
-                                <h2 class="meeting-title">IT Parkʼda eksportga yo‘naltirilgan IT-kompaniyalar bilan uchrashuv bo‘lib o‘tdi</h2>
-                                <p class="meeting-texts">24-fevral kuni IT Park Toshkent filialida IT Park direktori Farhod Ibragimov va tashkilotning rezident-eksportyor kompaniyalari oʻrtasida uchrashuv bo‘lib o‘tdi.
-                                    Tadbirning maqsadi – IT va BPO xizmatlari eksportining joriy holatini va O‘zbekistonda IT eksportini oshirish choralarini muhokama qilishdan iborat.
-                                    Uchrashuv davomida Farhod Zairovich eksportning joriy holatiga oid ayrim statistik ma’lumotlar bilan boʻlishdi. Shunday qilib, oʻtgan yilgi maʼlumotlarga koʻra, IT-xizmatlar eksporti hajmi $140 millionni tashkil etdi, eksportning qariyb 48 foizi dasturiy taʼminotni yaratuvchi kompaniyalariga toʻgʻri keladi, 44 foizdan biroz koʻprogʻi esa biznes jarayonlari autsorsingi bilan shugʻullanuvchi kompaniyalarga toʻgʻri keladi. Bundan tashqari, eksportning 80% dan ziyodi AQSh bozoriga toʻgʻri keladi, ammo boshqa koʻplab potensial bozorlar, jumladan Yevropa, Kanada va Sharq mamlakatlari mavjud.
-                                    “Afsuski, eksportning asosiy qismi Toshkentdan amalga oshiriladi, demak, biz boshqa hududlardan ham eksportni yanada oshirishga e’tibor qaratishimiz kerak. Barchangizga ma’lumki, Prezident bizga IT-xizmatlar eksportini 300 million dollargacha oshirish vazifasini qo‘ydi. Ishonchim komilki, birgalikdagi sa’y-harakatlarimiz va bilimlarimiz bilan eksportni oshirish bo‘yicha samarali strategiyalarni ishlab chiqa olamiz va Oʻzbekistonda IT sohasi rivojiga oʻz hissamizni qoʻsha olamiz”, – dedi IT Park direktori.</p>
-                                    <img class="meeting-zoom" src="./images/itpark-main.jpg"
-                                        srcset="./images/itpark-main.jpg 1x, ./images/itpark-main@2x.jpg"
-                                        width="932" height="623"
-                                    alt="It Park">
-                                    <p class="meeting-text">
-                                        Hozirda IT Park Uzbekistan xalqaro moliya markazi hamda kompaniyalarga yangi mahsulot va xizmatlarni nazorat qilinadigan muhitda testdan o‘tkazish imkonini beruvchi tartibga soluvchi sandbox yaratish ustida ishlamoqda. Bu xorijiy kompaniyalar uchun qulaylik va xavfsizlik darajasini taʼminlaydigan shartnomalar va kelishuvlar uchun ingliz huquqidan foydalanish imkoniyatini oʻz ichiga oladi.
-Tashkilot, shuningdek, rezident eksport qiluvchi kompaniyalar uchun maxsus raqamli bankni ishlab chiqish jarayonida. U ularning ehtiyojlariga moslashtirilgan bir qator moliyaviy xizmatlarni, shu jumladan, xorijiy valyutasidagi hisoblar va raqamli toʻlov tizimlarini taklif qiladi.
-Asosiy qism yakunida savol-javoblar sessiyasi boshlandi. Ayrim rezident kompaniyalar vakillari eksportdagi muvaffaqiyatlari bilan boʻlishdilar, shuningdek, birgalikdagi sa’y-harakatlar bilan qo‘yilgan vazifaga qanday erishish mumkinligi bo‘yicha takliflar bilan almashdilar.
-Bundan tashqari, kompaniyalar duch kelgan toʻsiqlar haqida gapirdilar. Xususan, relokatsiya paytidagi uy-joy muammosi va uy-joy narxining oshishi haqida soʻz yuritildi. Takliflar qatorida bojxona rasmiylashtiruvi uchun imtiyozlar va xorijiy mamlakatlarga IT sohasidagi rasmiy tashriflarda ishtirok etish so‘rovi bildirildi.
-                                    </p>
-                                    <div class="tech-wrapper">
-                                        <div class="one-wrap">
-                                            <a class="hi-tech" href="#">#hi_tech</a>
-                                            &nbsp;&nbsp;
-                                            &nbsp;&nbsp;
-                                            <a class="hi-tech"  href="#">#IT_PARK</a>
-                                        </div>
-                                        <div class="two-wrap">
-                                            <time class="news-time" datetime="2017-02-14">
-                                                14:45 &nbsp;&nbsp;  22/02/23
-                                            </time>
-                                        </div>
-                                        <div class="three-wrap">
-                                           <a class="news-like" href="#"> Ulashish</a>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="news-right">
-                        <ul class="news-list">
-                            <li class="news-list__item">
-                                <a class="news-link" href="/news.html">
-                                    <img class="news-dizan" src="./images/dizaynni.jpg" srcset="./images/dizaynni.jpg 1x, ./images/dizaynni@2x.jpg" width="317" height="195" alt="Dizaynga oid">
-                                    <div class="text-wrappers-innews">
-                                        <h3 class="news-list__text">Dizaynni o'rgangandan keyin nima qilish kerak?</h3>
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li class="news-list__item">
-                                <a class="news-link" href="/news.html">
-                                <img class="news-dizan" src="./images/bitiruvchilar.jpg" srcset="./images/bitiruvchilar.jpg 1x, ./images/bitiruvchilar@2x.jpg" width="317" height="195" alt="Bitiruvchi oid">
-                                <div class="text-wrappers-innews">
-                                    <h3 class="news-list__text">Bitiruvchilarning 81 foizi o’zlari yoqtirgan ish faoliyati bilan...</h3>
-                                </div>
-                                </a>
-                            </li>
-
-                            
-                            <li class="news-list__item">
-                                <a class="news-link" href="/news.html">
-                                <img class="news-dizan" src="./images/jamoaviymusobaqa.jpg" srcset="./images/jamoaviymusobaqa.jpg 1x, ./images/jamoaviymusobaqa@2x.jpg" width="317" height="195" alt="Frontendga oid">
-                                <div class="text-wrappers-innews">
-                                    <h3 class="news-list__text">Frontend yo'nalishidagi musobaqaga tayyormisiz?</h3>
-                                </div>
-                                </a></li>
-
-                            
-                            <li class="news-list__item">
-                                <a class="news-link" href="/news.html">
-                                <img class="news-dizan" src="./images/kirishsinov.jpg" srcset="./images/kirishsinov.jpg 1x, ./images/kirishsinov@2x.jpg" width="317" height="195" alt="Frontendga oid">
-                                <div class="text-wrappers-innews">
-                                    <h3 class="news-list__text">Frontend yo'nalishidagi musobaqaga tayyormisiz?</h3>
-                                </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="meeting-wrapper">
+              <div class="meeting-in-wrapper">
+                <h1 aria-hidden="true" hidden>Insof bersin hammaga</h1>
+                <h2 class="meeting-title">IT Parkʼda eksportga yo‘naltirilgan IT-kompaniyalar bilan uchrashuv bo‘lib
+                  o‘tdi</h2>
+                <p class="meeting-texts">24-fevral kuni IT Park Toshkent filialida IT Park direktori Farhod Ibragimov va
+                  tashkilotning rezident-eksportyor kompaniyalari oʻrtasida uchrashuv bo‘lib o‘tdi.
+                  Tadbirning maqsadi – IT va BPO xizmatlari eksportining joriy holatini va O‘zbekistonda IT eksportini
+                  oshirish choralarini muhokama qilishdan iborat.
+                  Uchrashuv davomida Farhod Zairovich eksportning joriy holatiga oid ayrim statistik ma’lumotlar bilan
+                  boʻlishdi. Shunday qilib, oʻtgan yilgi maʼlumotlarga koʻra, IT-xizmatlar eksporti hajmi $140 millionni
+                  tashkil etdi, eksportning qariyb 48 foizi dasturiy taʼminotni yaratuvchi kompaniyalariga toʻgʻri
+                  keladi, 44 foizdan biroz koʻprogʻi esa biznes jarayonlari autsorsingi bilan shugʻullanuvchi
+                  kompaniyalarga toʻgʻri keladi. Bundan tashqari, eksportning 80% dan ziyodi AQSh bozoriga toʻgʻri
+                  keladi, ammo boshqa koʻplab potensial bozorlar, jumladan Yevropa, Kanada va Sharq mamlakatlari mavjud.
+                  “Afsuski, eksportning asosiy qismi Toshkentdan amalga oshiriladi, demak, biz boshqa hududlardan ham
+                  eksportni yanada oshirishga e’tibor qaratishimiz kerak. Barchangizga ma’lumki, Prezident bizga
+                  IT-xizmatlar eksportini 300 million dollargacha oshirish vazifasini qo‘ydi. Ishonchim komilki,
+                  birgalikdagi sa’y-harakatlarimiz va bilimlarimiz bilan eksportni oshirish bo‘yicha samarali
+                  strategiyalarni ishlab chiqa olamiz va Oʻzbekistonda IT sohasi rivojiga oʻz hissamizni qoʻsha olamiz”,
+                  – dedi IT Park direktori.</p>
+                <img class="meeting-zoom" src="./images/itpark-main.jpg"
+                  srcset="./images/itpark-main.jpg 1x, ./images/itpark-main@2x.jpg" width="932" height="623"
+                  alt="It Park">
+                <p class="meeting-text">
+                  Hozirda IT Park Uzbekistan xalqaro moliya markazi hamda kompaniyalarga yangi mahsulot va xizmatlarni
+                  nazorat qilinadigan muhitda testdan o‘tkazish imkonini beruvchi tartibga soluvchi sandbox yaratish
+                  ustida ishlamoqda. Bu xorijiy kompaniyalar uchun qulaylik va xavfsizlik darajasini taʼminlaydigan
+                  shartnomalar va kelishuvlar uchun ingliz huquqidan foydalanish imkoniyatini oʻz ichiga oladi.
+                  Tashkilot, shuningdek, rezident eksport qiluvchi kompaniyalar uchun maxsus raqamli bankni ishlab
+                  chiqish jarayonida. U ularning ehtiyojlariga moslashtirilgan bir qator moliyaviy xizmatlarni, shu
+                  jumladan, xorijiy valyutasidagi hisoblar va raqamli toʻlov tizimlarini taklif qiladi.
+                  Asosiy qism yakunida savol-javoblar sessiyasi boshlandi. Ayrim rezident kompaniyalar vakillari
+                  eksportdagi muvaffaqiyatlari bilan boʻlishdilar, shuningdek, birgalikdagi sa’y-harakatlar bilan
+                  qo‘yilgan vazifaga qanday erishish mumkinligi bo‘yicha takliflar bilan almashdilar.
+                  Bundan tashqari, kompaniyalar duch kelgan toʻsiqlar haqida gapirdilar. Xususan, relokatsiya paytidagi
+                  uy-joy muammosi va uy-joy narxining oshishi haqida soʻz yuritildi. Takliflar qatorida bojxona
+                  rasmiylashtiruvi uchun imtiyozlar va xorijiy mamlakatlarga IT sohasidagi rasmiy tashriflarda ishtirok
+                  etish so‘rovi bildirildi.
+                </p>
+                <div class="tech-wrapper">
+                  <div class="one-wrap">
+                    <a class="hi-tech" href="#">#hi_tech</a>
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    <a class="hi-tech" href="#">#IT_PARK</a>
+                  </div>
+                  <div class="two-wrap">
+                    <time class="news-time" datetime="2017-02-14">
+                      14:45 &nbsp;&nbsp; 22/02/23
+                    </time>
+                  </div>
+                  <div class="three-wrap">
+                    <a class="news-like" href="#"> Ulashish</a>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-    </main>
-    
-    <footer class="site-footer">
-        <div class="container">
-          <div class="footer-wrapper">
-  
-            <div class="logo-wrapper">
-              <a href="#" class="logo-wrapper__icon">
-                <img class="logo-white"  src="./images/site-logo.svg" width="158" height="66" alt="footer logo">
 
-                <img  class="logo-black"   src="./images/site-logo-black.svg" width="158" height="66" alt="footer logo">
-              </a>
-            </div>
-  
-            <div class="address-wrapper">
-              <address class="address-in">
-                Manzil:  Toshkent shahri, Sergeli tumani, Navro'z ko'cha 3-uy.
-                Mo'ljal:  “ASIA AUTO” avtosalon ichki qismi
-              </address>
-            </div>
-  
-            <div class="phone-wrapper">
-              <a class="phone-tel phone" href="tel:+998999999999" target="blank">+998 99 999 99 99</a>
-              <br>
-              <a class="phone-tel" href="tel:+998999999999" target="blank">+998 99 999 99 99</a>
-            </div>
-  
-            <div class="icons-wrapper">
-              <ul class="icons-list">
-                <li class="icons-item">
-                  <a href="https://web.telegram.org/z/" target="blank">
-                    <img class="logo-white" src="./images/telegram.svg" width="30" height="30" alt="Telegram">
-                    <img class="logo-black" src="./images/telegram-light.svg" width="30" height="30" alt="Telegram">
-                  </a>
-                </li>
-  
-                <li class="icons-item icon-face">
-                  <a href="https://www.facebook.com/" target="blank">
+          </div>
+          <div class="news-right">
+            <ul class="news-list">
+              <li class="news-list__item">
+                <a class="news-link" href="/news.html">
+                  <img class="news-dizan" src="./images/dizaynni.jpg"
+                    srcset="./images/dizaynni.jpg 1x, ./images/dizaynni@2x.jpg" width="317" height="195"
+                    alt="Dizaynga oid">
+                  <div class="text-wrappers-innews">
+                    <h3 class="news-list__text">Dizaynni o'rgangandan keyin nima qilish kerak?</h3>
+                  </div>
+                </a>
+              </li>
 
-                    <img  class="logo-white" src="./images/facebook-icon.svg" width="30" height="30" alt="Facebook">
-                    
-                    <img  class="logo-black" src="./images/facebook-light.svg" width="30" height="30" alt="Facebook">
-                  </a>
-                </li>
-                
-                <li class="icons-item">
-                  <a href="https://www.instagram.com/" target="blank">
+              <li class="news-list__item">
+                <a class="news-link" href="/news.html">
+                  <img class="news-dizan" src="./images/bitiruvchilar.jpg"
+                    srcset="./images/bitiruvchilar.jpg 1x, ./images/bitiruvchilar@2x.jpg" width="317" height="195"
+                    alt="Bitiruvchi oid">
+                  <div class="text-wrappers-innews">
+                    <h3 class="news-list__text">Bitiruvchilarning 81 foizi o’zlari yoqtirgan ish faoliyati bilan...</h3>
+                  </div>
+                </a>
+              </li>
 
-                    <img  class="logo-white" src="./images/instagram.svg" width="30" height="30" alt="Instagram">
-                     
-                    <img   class="logo-black" src="./images/instagram-light.svg" width="30" height="30" alt="Instagram">
-                  </a>
-                </li>
-  
-              </ul>
-            </div>
-  
+
+              <li class="news-list__item">
+                <a class="news-link" href="/news.html">
+                  <img class="news-dizan" src="./images/jamoaviymusobaqa.jpg"
+                    srcset="./images/jamoaviymusobaqa.jpg 1x, ./images/jamoaviymusobaqa@2x.jpg" width="317" height="195"
+                    alt="Frontendga oid">
+                  <div class="text-wrappers-innews">
+                    <h3 class="news-list__text">Frontend yo'nalishidagi musobaqaga tayyormisiz?</h3>
+                  </div>
+                </a>
+              </li>
+
+
+              <li class="news-list__item">
+                <a class="news-link" href="/news.html">
+                  <img class="news-dizan" src="./images/kirishsinov.jpg"
+                    srcset="./images/kirishsinov.jpg 1x, ./images/kirishsinov@2x.jpg" width="317" height="195"
+                    alt="Frontendga oid">
+                  <div class="text-wrappers-innews">
+                    <h3 class="news-list__text">Frontend yo'nalishidagi musobaqaga tayyormisiz?</h3>
+                  </div>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-    </footer>
-  
-    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
-    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
-  
-    <script src="./js/main.js"></script>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-wrapper">
+
+        <div class="logo-wrapper">
+          <a href="#" class="logo-wrapper__icon">
+            <img class="logo-white" src="./images/site-logo.svg" width="158" height="66" alt="footer logo">
+
+            <img class="logo-black" src="./images/site-logo-black.svg" width="158" height="66" alt="footer logo">
+          </a>
+        </div>
+
+        <div class="address-wrapper">
+          <address class="address-in">
+            Manzil: Toshkent shahri, Sergeli tumani, Navro'z ko'cha 3-uy.
+            Mo'ljal: “ASIA AUTO” avtosalon ichki qismi
+          </address>
+        </div>
+
+        <div class="phone-wrapper">
+          <a class="phone-tel phone" href="tel:+998999999999" target="blank">+998 99 999 99 99</a>
+          <br>
+          <a class="phone-tel" href="tel:+998999999999" target="blank">+998 99 999 99 99</a>
+        </div>
+
+        <div class="icons-wrapper">
+          <ul class="icons-list">
+            <li class="icons-item">
+              <a href="https://web.telegram.org/z/" target="blank">
+                <img class="logo-white" src="./images/telegram.svg" width="30" height="30" alt="Telegram">
+                <img class="logo-black" src="./images/telegram-light.svg" width="30" height="30" alt="Telegram">
+              </a>
+            </li>
+
+            <li class="icons-item icon-face">
+              <a href="https://www.facebook.com/" target="blank">
+
+                <img class="logo-white" src="./images/facebook-icon.svg" width="30" height="30" alt="Facebook">
+
+                <img class="logo-black" src="./images/facebook-light.svg" width="30" height="30" alt="Facebook">
+              </a>
+            </li>
+
+            <li class="icons-item">
+              <a href="https://www.instagram.com/" target="blank">
+
+                <img class="logo-white" src="./images/instagram.svg" width="30" height="30" alt="Instagram">
+
+                <img class="logo-black" src="./images/instagram-light.svg" width="30" height="30" alt="Instagram">
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+  <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
