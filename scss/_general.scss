@@ -24,6 +24,15 @@ svg {
 button {
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 .site-body {
   display: flex;
@@ -43,6 +52,9 @@ button {
   background-position: center 0;
   height: 6800px;
   background-repeat: no-repeat;
+}
+.body--dark .site-body__home {
+  background-image: url("../images/main-bg.png");
 }
 /* STICKY-FOOTER */
 .site-main {
