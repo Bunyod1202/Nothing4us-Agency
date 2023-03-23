@@ -1172,6 +1172,9 @@ a {
   background: linear-gradient(93.5deg, #1E11AD 12.37%, rgba(105, 17, 173, 0.95) 85.28%);
   border-radius: 30px;
 }
+.projects__item--active .projects__link {
+  color: #fff !important;
+}
 
 .choose {
   padding-bottom: 160px;
@@ -1477,9 +1480,169 @@ a {
   max-width: 208px;
   display: block;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .form__label input {
   margin-right: 5px;
+}
+
+.chek-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.online_shop:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.backend:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.crm:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.logotip:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.portal:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.web_design:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.mobilograf:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.Frontend:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.grafic_design:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.motion_design:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.online_shops:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.web_site:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.smm_design:checked + .chek-content .chek-box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 1.5px;
+  top: 1.5px;
+  background-color: #6911AD;
+  border-radius: 4px;
+}
+
+.chek-box {
+  position: relative;
+  padding: 5px 9px 0px 9px;
+  margin-right: 10px;
+  height: 20px;
+  display: block;
+  border: 1px solid #AAAAAA;
+  border-radius: 4px;
 }
 
 .label-box {
@@ -1691,6 +1854,28 @@ a {
     color: var(--main-white-color);
     background-color: #6911AD;
     border-radius: 141px;
+  }
+}
+.discussion__mobile {
+  display: none !important;
+}
+
+.discussion__btn {
+  display: block;
+}
+
+@media only screen and (max-width: 748px) {
+  .discussion__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .discussion__mobile {
+    display: block !important;
+  }
+  .discussion__btn {
+    display: none;
   }
 }
 .advantage {
@@ -2695,6 +2880,10 @@ a {
 .our-team-img {
   width: 100%;
   border-radius: 65px;
+}
+
+.our-team {
+  padding-bottom: 120px;
 }
 
 .user-contact {

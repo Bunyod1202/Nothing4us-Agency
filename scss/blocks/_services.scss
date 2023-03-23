@@ -72,12 +72,206 @@
   max-width: 208px;
   display: block;
   margin-bottom: 30px;
-
+cursor: pointer;
   & input{
     margin-right: 5px;
   }
 }
+.chek-content{ 
+  display: flex;
+}
+.online_shop:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
 
+}.backend:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.crm:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.logotip:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.portal:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.web_design:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.mobilograf:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.Frontend:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.grafic_design:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.motion_design:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.online_shops:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.web_site:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}.smm_design:checked + .chek-content {
+  .chek-box{ 
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 1.5px;
+      top: 1.5px;
+      background-color: #6911AD;
+      border-radius: 4px;
+    }
+  }
+
+}
+.chek-box{ 
+  position: relative;
+  padding: 5px 9px 0px 9px;
+  margin-right: 10px;
+  height: 20px;
+  display: block;
+  border: 1px solid #AAAAAA;
+border-radius: 4px;
+}
 .label-box{
   display: flex;
   align-items: start;
@@ -260,5 +454,23 @@
     color: var(--main-white-color);
     background-color: #6911AD;
     border-radius: 141px;
+  }
+}
+.discussion__mobile { 
+  display: none !important ;
+}
+.discussion__btn{
+  display: block;
+}
+
+@include desktop-first(748px){
+  .discussion__form {
+    flex-direction: column;
+  }
+  .discussion__mobile { 
+    display: block!important;
+  }
+  .discussion__btn{
+    display: none;
   }
 }

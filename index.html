@@ -64,6 +64,7 @@
     </div>
   </header>
   <main class="site-main">
+
     <section class="hero">
       <div class="container">
         <div class="hero-inner">
@@ -124,7 +125,6 @@
         </div>
       </div>
     </section>
-
 
     <section class="advantage">
       <div class="container">
@@ -224,46 +224,6 @@
       </div>
     </section>
 
-    <!-- <section class="haqida">
-      <div class="container">
-        <div class="haqida-wrapper">
-          <div class="haqida-wrapper__title">
-            <h2 class="haqida-wrapper__title-text">Kompaniya haqida</h2>
-            <p>Agentlik-bu mijozlarga o'z bizneslari uchun sifatli va innovatsion echimlarni taqdim etish maqsadida
-              tashkil etilgan veb-agentlik. Bizning jamoamiz mijozlarga moslashtirilgan va sifatli mahsulotni taklif
-              qilish uchun yaqin hamkorlikda ishlaydigan tajribali veb-dizayn, ishlab chiqish va marketing
-              mutaxassislaridan iborat.
-              <br>
-              Biz veb-dizayn, veb-sayt va mobil ilovalarni ishlab chiqish, SEO optimallashtirish, kontent yaratish va
-              reklama kampaniyalarini o'z ichiga olgan keng ko'lamli xizmatlarni taklif etamiz. Biz eng yangi
-              texnologiyalar va innovatsion usullardan foydalangan holda brendni rivojlantirish va sotishni ko'paytirish
-              bilan shug'ullanamiz.
-            </p>
-          </div>
-          <ol>
-            <li>
-              <h3>20+</h3>
-              <p>Проектов запустил</p>
-            </li>
-
-            <li>
-              <h3>12+</h3>
-              <p>Профессионалов</p>
-            </li>
-
-            <li>
-              <h3>4 года</h3>
-              <p>Опыта разработки</p>
-            </li>
-
-            <li>
-              <h3>4 года</h3>
-              <p>Опыта разработки</p>
-            </li>
-          </ol>
-        </div>
-      </div>
-    </section> -->
     <section class="projects">
       <div class="container">
         <div class="projects__box">
@@ -289,8 +249,6 @@
           <ul class="panel__list panel__list--active" id="all">
             <li class="panel__item panel__mb1">
               <a href="https://www.instagram.com/uymakon/" target="blank">
-                <a href="https://www.instagram.com/uymakon/" target="blank">
-                </a>
                 <span class="panel__effect">UYMAKON mobil ilovasi</span>
               </a>
             </li>
@@ -450,8 +408,6 @@
                 <span class="panel__effect">UYMAKON mobil ilovasi</span>
               </a>
             </li>
-
-            </li>
           </ul>
 
           <a class="project__see-link" href="./portfolio.html">
@@ -460,9 +416,7 @@
 
         </div>
       </div>
-
     </section>
-
 
     <section class="new-blog">
       <div class="container">
@@ -571,31 +525,11 @@
                 </div>
               </a>
             </div>
-
-            <div class="icons-wrapper">
-
-              <img class="logo-white" src="./images/facebook-icon.svg" width="30" height="30" alt="Facebook">
-
-              <img class="logo-black" src="./images/facebook-light.svg" width="30" height="30" alt="Facebook">
-              </a>
-              </li>
-
-              <li class="icons-item">
-                <a href="https://www.instagram.com/" target="blank">
-
-                  <img class="logo-white" src="./images/instagram.svg" width="30" height="30" alt="Instagram">
-
-                  <img class="logo-black" src="./images/instagram-light.svg" width="30" height="30" alt="Instagram">
-                </a>
-              </li>
-
-              </ul>
-
-
-
-            </div>
           </div>
+        </div>
+      </div>
     </section>
+
     <section class="our-team">
       <div class="container">
         <div class="our-team__innner">
@@ -681,6 +615,7 @@
         </div>
       </div>
     </section>
+
     <section class="discussion">
       <div class="container">
         <div class="discussion__box">
@@ -695,65 +630,103 @@
               <div class="form__wrap">
 
                 <div class="form__left">
-                  <label class="form__label">
-                    <input type="checkbox" name="backend">
-                    Backend
+                  <label class="form__label" for="backend">
+                    <input class="visually-hidden backend" type="checkbox" name="backend" id="backend">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text"> Backend</span>
+                    </span>
                   </label>
-                  <label class="form__label">
-                    <input type="checkbox" name="crm">
-                    CRM ishlab chiqish
+                  <label class="form__label" for="crm">
+                    <input class="visually-hidden crm" type="checkbox" name="crm" id="crm">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text">CRM ishlab chiqish</span>
+                    </span>
                   </label>
+
                   <div class="label-box">
-                    <input type="checkbox" name="online_shop" id="online-shop">
                     <label class="form__label" for="online-shop">
-                      Internet magazin ishlab chiqish
+                      <input class="visually-hidden online_shop" type="checkbox" name="online_shop" id="online-shop">
+                      <span class="chek-content">
+                        <span class="chek-box"></span>
+                        <span class="chek-text"> Internet magazin ishlab chiqish</span>
+                      </span>
                     </label>
                   </div>
-
-                  <label class="form__label">
-                    <input type="checkbox" name="logotip">
-                    Logotip va Brandbook
+                  <label class="form__label" for="logotip">
+                    <input class="visually-hidden logotip" type="checkbox" name="logotip" id="logotip">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text">Logotip va Brandbook</span>
+                    </span>
                   </label>
-                  <label class="form__label">
-                    <input type="checkbox" name="portal">
-                    Portal ishlab chiqish
+                  <label class="form__label" for="portal">
+                    <input class="visually-hidden portal" type="checkbox" name="portal" id="portal">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text"> Portal ishlab chiqish</span>
+                    </span>
                   </label>
-                  <label class="form__label">
-                    <input type="checkbox" name="web_design">
-                    Veb dizayn
+                  <label class="form__label" for="web_design">
+                    <input class="visually-hidden web_design" type="checkbox" name="web_design" id="web_design">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text">Veb dizayn</span>
+                    </span>
                   </label>
-                  <label class="form__label">
-                    <input type="checkbox" name="mobilograf">
-                    Mobilograf
+                  <label class="form__label" for="mobilograf">
+                    <input class="visually-hidden mobilograf" type="checkbox" name="mobilograf" id="mobilograf">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text">Mobilograf</span>
+                    </span>
                   </label>
                 </div>
                 <div class="form__right">
-                  <label class="form__label">
-                    <input type="checkbox" name="Frontend">
-                    Frontend
+                  <label class="form__label" for="Frontend">
+                    <input class="visually-hidden Frontend" type="checkbox" name="Frontend" id="Frontend">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text">Frontend</span>
+                    </span>
                   </label>
-                  <label class="form__label">
-                    <input type="checkbox" name="grafic_design">
-                    Grafik dizayn
+                  <label class="form__label" for="grafic_design">
+                    <input class="visually-hidden grafic_design" type="checkbox" name="grafic_design"
+                      id="grafic_design">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text"> Grafik dizayn</span>
+                    </span>
                   </label>
-                  <label class="form__label">
-                    <input type="checkbox" name="motion_design">
-                    Motion dizayn
+                  <label class="form__label" for="motion_design">
+                    <input class="visually-hidden motion_design" type="checkbox" name="motion_design"
+                      id="motion_design">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text"> Motion dizayn</span>
+                    </span>
                   </label>
-                  <div class="label-box">
-                    <input type="checkbox" name="online_shop" id="online-shop">
-                    <label class="form__label" for="online-shop">
-                      Mobil ilova ishlab chiqish
-                    </label>
-                  </div>
-
-                  <label class="form__label">
-                    <input type="checkbox" name="web_site">
-                    Veb sayt ishlab chiqish
+                  <label class="form__label" for="online_shops">
+                    <input class="visually-hidden online_shops" type="checkbox" name="online_shops" id="online_shops">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text"> Mobil ilova ishlab chiqish</span>
+                    </span>
                   </label>
-                  <label class="form__label">
-                    <input type="checkbox" name="smm_design">
-                    SMM dizayn
+                  <label class="form__label" for="web_site">
+                    <input class="visually-hidden web_site" type="checkbox" name="web_site" id="web_site">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text"> Veb sayt ishlab chiqish</span>
+                    </span>
+                  </label>
+                  <label class="form__label" for="smm_design">
+                    <input class="visually-hidden smm_design" type="checkbox" name="smm_design" id="smm_design">
+                    <span class="chek-content">
+                      <span class="chek-box"></span>
+                      <span class="chek-text"> SMM dizayn</span>
+                    </span>
                   </label>
                 </div>
               </div>
@@ -785,11 +758,13 @@
                 </ul>
               </div>
               <div class="discussion__btn-box"></div>
+              <button class="portfolio-link--mobile discussion__mobile " type="submit">Mijoz bo’lish </button>
               <button class="discussion__btn" type="submit">Mijoz bo’lish </button>
           </form>
         </div>
       </div>
     </section>
+
   </main>
   <footer class="site-footer">
     <div class="container">
@@ -797,53 +772,21 @@
         <div class="logo-wrapper">
           <a href="#" class="logo-wrapper__icon">
             <img class="logo-white" src="./images/site-logo.svg" width="158" height="66" alt="footer logo">
-
             <img class="logo-black" src="./images/site-logo-black.svg" width="158" height="66" alt="footer logo">
           </a>
         </div>
-        <div class="logo-wrapper">
-          <a href="#" class="logo-wrapper__icon">
-            <img src="./images/site-logo.svg" width="158" height="66" alt="footer logo">
-          </a>
-        </div>
-
         <div class="address-wrapper">
           <address class="address-in">
             Manzil: Toshkent shahri, Sergeli tumani, Navro'z ko'cha 3-uy.
             Mo'ljal: “ASIA AUTO” avtosalon ichki qismi
           </address>
         </div>
-
         <div class="phone-wrapper">
           <a class="phone-tel phone" href="tel:+998999999999" target="blank">+998 99 999 99 99</a>
           <br>
           <a class="phone-tel" href="tel:+998999999999" target="blank">+998 99 999 99 99</a>
         </div>
-
         <div class="icons-wrapper">
-          <ul class="icons-list">
-            <li class="icons-item">
-              <a href="https://web.telegram.org/z/" target="blank">
-                <img src="./images/telegram.svg" width="30" height="30" alt="Telegram">
-              </a>
-            </li>
-
-            <li class="icons-item icon-face">
-              <a href="https://www.facebook.com/" target="blank">
-                <img src="./images/facebook-icon.svg" width="30" height="30" alt="Facebook">
-              </a>
-            </li>
-
-            <li class="icons-item">
-              <a href="https://www.instagram.com/" target="blank">
-                <img src="./images/instagram.svg" width="30" height="30" alt="Instagram">
-              </a>
-            </li>
-
-          </ul>
-        </div>
-        <div class="icons-wrapper">
-
           <ul class="icons-list">
             <li class="icons-item">
               <a href="https://web.telegram.org/z/" target="blank">
@@ -851,29 +794,23 @@
                 <img class="logo-black" src="./images/telegram-light.svg" width="30" height="30" alt="Telegram">
               </a>
             </li>
-
             <li class="icons-item icon-face">
               <a href="https://www.facebook.com/" target="blank">
-
                 <img class="logo-white" src="./images/facebook-icon.svg" width="30" height="30" alt="Facebook">
-
                 <img class="logo-black" src="./images/facebook-light.svg" width="30" height="30" alt="Facebook">
               </a>
             </li>
-
             <li class="icons-item">
               <a href="https://www.instagram.com/" target="blank">
 
                 <img class="logo-white" src="./images/instagram.svg" width="30" height="30" alt="Instagram">
-
                 <img class="logo-black" src="./images/instagram-light.svg" width="30" height="30" alt="Instagram">
               </a>
             </li>
-
           </ul>
-
         </div>
-
+        <div class="icons-wrapper">
+        </div>
       </div>
     </div>
   </footer>
@@ -922,6 +859,8 @@
 
 
     const site_body = window.innerWidth
+
+
 
     if (site_body >= 1000) {
       const globe = createGlobe(canvas, {
